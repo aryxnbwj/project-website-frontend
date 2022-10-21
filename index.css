@@ -1,0 +1,105 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+}
+
+.main{
+    background-image:url("resources/background-layer.png");
+    height:500px;
+}
+
+.main a{
+    position:absolute;
+    left:500px;
+    top:300px;
+    text-align:center;
+}
+
+.nav{
+    padding: 10px;
+}
+
+.nav span{
+    position:absolute;
+    right:300px;
+    padding-top: 12.5px;
+}
+
+.nav img{
+    position:relative;
+    left:250px;
+}
+
+.cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.text{
+    text-align:center;
+}
+
+.about{
+    margin-left:250px;
+    margin-right: 250px;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+.cards_awards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.award{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:250px;
+    margin-bottom:250px;
+}
+
+.text_award{
+    text-align:center;
+}
+
+.bigbox{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.contact{
+    margin-left:200px;
+    margin-right:125px;
+    margin-top:250px;
+    margin-bottom:250px;
+}
+
+.form{
+    width:500px;
+}
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+}
+
+.text_footer{
+    position:absolute;
+    left:250px;
+}
+
+.icons{
+    position:absolute;
+    right:300px;
+}
+
+.footer{
+    background-color:#139139;
+    height:100px;
+}
